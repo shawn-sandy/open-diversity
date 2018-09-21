@@ -2,17 +2,34 @@
   "name": "open-diversity",
   "version": "0.1.0",
   "private": true,
+  "description": "An open initiative to provide IT development, training, programs and career guidance initiatives for minority groups.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shawn-sandy/open-diversity"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "start:eleventy": "eleventy --serve",
+    "build:eleventy": "npx eleventy",
+    "watch": "npx eleventy --watch",
+    "debug": "DEBUG=* npx eleventy"
   },
   "dependencies": {
     "vue": "^2.5.17",
     "clean-css": "^4.1.11",
     "html-minifier": "^3.5.19",
     "uglify-js": "^3.4.5"
-
+  },
+  "author": {
+    "name": "Dan Urbanowicz",
+    "email": "dan.urbanowicz@gmail.com",
+    "url": "https://www.danurbanowicz.com/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shawn-sandy/open-diversity/issues"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.0.0",
