@@ -11,16 +11,18 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "start:eleventy": "eleventy --serve",
+    "start": "eleventy --serve",
     "build:eleventy": "npx eleventy",
     "watch": "npx eleventy --watch",
+    "audit": "npx audit",
     "debug": "DEBUG=* npx eleventy"
   },
   "dependencies": {
-    "vue": "^2.5.17",
+    "bootstrap": "^4.1.3",
     "clean-css": "^4.1.11",
     "html-minifier": "^3.5.19",
-    "uglify-js": "^3.4.5"
+    "uglify-js": "^3.4.5",
+    "vue": "^2.5.17"
   },
   "author": {
     "name": "Dan Urbanowicz",
@@ -32,15 +34,16 @@
     "url": "https://github.com/shawn-sandy/open-diversity/issues"
   },
   "devDependencies": {
+    "@11ty/eleventy": "^0.5.3",
     "@vue/cli-plugin-babel": "^3.0.0",
     "@vue/cli-plugin-eslint": "^3.0.0",
     "@vue/cli-service": "^3.0.0",
-    "vue-template-compiler": "^2.5.17",
-    "@11ty/eleventy": "^0.5.3",
     "luxon": "^1.0.0",
     "markdown-it": "^8.4.1",
-    "markdown-it-anchor": "^4.0.0"
-
+    "markdown-it-anchor": "^4.0.0",
+    "node-sass": "^4.9.3",
+    "sass-loader": "^7.1.0",
+    "vue-template-compiler": "^2.5.17"
   },
   "eslintConfig": {
     "root": true,
