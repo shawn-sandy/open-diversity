@@ -1,36 +1,52 @@
 {
   "name": "open-diversity",
-  "version": "1.0.1",
-  "description": "An open initiative to provide IT development, training, programs and career guidance initiatives for minority groups.",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "build": "npx eleventy",
-    "watch": "npx eleventy --watch",
-    "debug": "DEBUG=* npx eleventy",
-    "start": "eleventy --serve"
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/shawn-sandy/open-diversity"
+  "dependencies": {
+    "vue": "^2.5.17",
+    "clean-css": "^4.1.11",
+    "html-minifier": "^3.5.19",
+    "uglify-js": "^3.4.5"
+
   },
-  "author": {
-    "name": "Dan Urbanowicz",
-    "email": "dan.urbanowicz@gmail.com",
-    "url": "https://www.danurbanowicz.com/"
-  },
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/shawn-sandy/open-diversity/issues"
-  },
-  "homepage": "https://github.com/shawn-sandy/open-diversity",
   "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.0",
+    "@vue/cli-plugin-eslint": "^3.0.0",
+    "@vue/cli-service": "^3.0.0",
+    "vue-template-compiler": "^2.5.17",
     "@11ty/eleventy": "^0.5.3",
     "luxon": "^1.0.0",
     "markdown-it": "^8.4.1",
     "markdown-it-anchor": "^4.0.0"
+
   },
-  "dependencies": {
-    "clean-css": "^4.1.11",
-    "html-minifier": "^3.5.19",
-    "uglify-js": "^3.4.5"
-  }
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
 }
