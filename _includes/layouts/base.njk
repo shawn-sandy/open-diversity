@@ -14,14 +14,17 @@
 				</div>
 				<div class="column is-pulled-right">
 					<div class="navbar-end">
-						{% include "components/nav.njk" %}
+						<!-- {% include "components/nav.njk" %} -->
 					</div>
 				</div>
 			</div>
 		</div>
 	</header>
-		<main class="container">
-			{{ layoutContent | safe }}
+
+		<main class="section">
+			<div class="container">
+				{{ layoutContent | safe }}
+			</div>
 		</main>
 
 		{% include "components/footer.njk" %}
