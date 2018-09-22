@@ -4,7 +4,7 @@
 	{% include "components/head.njk" %}
 
 	<body>
-	<header class="padding">
+	<header class="padding level">
 		<div class="container">
 			<div class="columns">
 				<div class="column">
@@ -14,7 +14,7 @@
 				</div>
 				<div class="column is-pulled-right">
 					<div class="navbar-end">
-						<!-- {% include "components/nav.njk" %} -->
+						{% include "components/nav.njk" %}
 					</div>
 				</div>
 			</div>
@@ -22,7 +22,7 @@
 	</header>
 
 		<main class="section-">
-			<div class="container">
+			<div class="">
 				{{ layoutContent | safe }}
 			</div>
 		</main>

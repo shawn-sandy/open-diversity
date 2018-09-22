@@ -2,30 +2,42 @@
 layout: layouts/base.njk
 section: post
 ---
+{% include "components/main-header.njk" %}
 
-<article>
+<div class="section container">
+<div class="columns">
+  <div class="column is-9">
+    <article class="content">
   <h1>{{ title }}</h1>
   <p>
     <small>
       <time datetime="{{ date | machineDate }}">{{ date | readableDate }}</time> by {{ metadata.author.name }}
     </small>
   </p>
-
-  {{ layoutContent | safe }}
+  <div class="is-size-5">
+    {{ layoutContent | safe }}
+  </div>
+  <hr>
 
   {% if tags %}
-    <p>
+    <p class="tags">
     {% for tag in tags %}
       {%- if tag != "post" -%}
         {% set tagUrl %}/tags/{{ tag }}/{% endset %}
-        <a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
+        <a href="{{ tagUrl | url }}" class="tag" rel="tag">{{ tag }}</a>
       {%- endif -%}
     {% endfor %}
     </p>
   {% endif %}
 
 </article>
+  </div>
+  <div class="column is-3"></div>
+</div>
+
 
 <nav>
   <a href="{{ '/blog/' | url }}">← Blog index</a>
 </nav>
+
+</div>
