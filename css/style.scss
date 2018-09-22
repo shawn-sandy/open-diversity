@@ -1,0 +1,14 @@
+@import 'node_modules/bulma/sass/utilities/_all';
+@import 'node_modules/sass-rem/rem';
+
+main {
+	min-height: 10vh;
+}
+
+.padding {
+	padding: 20px 0;
+}
+
+.elm-rounded {
+	border-radius: rem(10px)
+}

@@ -3,9 +3,18 @@ layout: layouts/base.njk
 section: blog
 permalink: /blog/index.html
 ---
-<h1>{{ title }}</h1>
+{% include "components/main-header.njk" %}
 
-{{ layoutContent | safe }}
+<section class="container blog padding">
+	<div class="columns">
+		<div class="column is-9">
+		{{ layoutContent | safe }}
 
-{% set postslist = collections.posts %}
-{% include "components/postslist.njk" %}
+		{% set postslist = collections.posts %}
+		{% include "components/postslist.njk" %}
+		</div>
+		<div class="column">
+			Sidebar
+		</div>
+	</div>
+</section>
