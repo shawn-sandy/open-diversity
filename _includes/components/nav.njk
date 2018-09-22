@@ -1,8 +1,5 @@
 <nav class="navbar">
   <div class="container">
-      <a class="navbar-item" href="{{ '/' | url }}">
-        <em>{{ metadata.title }}</em>
-      </a>
     <ul class="navbar-menu">
   {%- for nav in collections.nav | sort(attribute="date") -%}
     <li class="navbar-item"><a href="{{ nav.url | url }}"{% if nav.url == page.url %} data-current="current item"{% endif %}>{{ nav.data.navtitle }}</a></li>

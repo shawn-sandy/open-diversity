@@ -1,6 +1,7 @@
 main {
 	min-height: 30vh;
 }
-header{
-	min-height: 60vh;
+
+.padding {
+	padding: 20px 0;
 }
