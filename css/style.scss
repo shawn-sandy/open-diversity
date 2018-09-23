@@ -2,16 +2,25 @@
 @import 'node_modules/sass-rem/rem';
 
 body {
-//  padding: rem(20px)
+	//  padding: rem(20px)
+	@media (max-width: 767px) {
+		padding: rem(20px)
+	}
 }
+
 main {
 	min-height: 10vh;
 }
 
 .padding {
 	padding: 20px 0;
+
 }
 
 .elm-rounded {
-	border-radius: rem(15px)
+	border-radius: rem(15px);
+
+	@media (max-width: 767px) {
+		border-radius: 0
+	}
 }
