@@ -12,9 +12,13 @@ main {
 	min-height: 10vh;
 }
 
+.cover {
+	background-image: url('/static/img/diversity-bg.jpg');
+	text-shadow: 2px 6px 8px rgba(0, 0, 0, 0.29);
+}
+
 .padding {
 	padding: 20px 0;
-
 }
 
 .elm-rounded {
