@@ -1,6 +1,9 @@
 @import 'node_modules/bulma/sass/utilities/_all';
 @import 'node_modules/sass-rem/rem';
 
+body {
+//  padding: rem(20px)
+}
 main {
 	min-height: 10vh;
 }
