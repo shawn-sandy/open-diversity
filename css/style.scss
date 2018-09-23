@@ -17,7 +17,13 @@ main {
 	background-size: cover;
 	background-repeat: no-repeat;
 	object-fit: cover;
+	@media (max-width: 767px) {
+		padding: rem(20px);
+		background-image: url('/static/img/diamonds.png');
+		background-repeat: repeat;
+	}
 	text-shadow: 2px 6px 8px rgba(0, 0, 0, 0.29);
+	border-radius: rem(15px);
 }
 
 .padding {

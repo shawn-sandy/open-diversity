@@ -75,7 +75,8 @@ module.exports = function(eleventyConfig) {
       "njk",
       "html",
       "css",
-      "jpg"
+      "jpg",
+      "png"
     ],
 
     // If your site lives in a different subdirectory, change this.
