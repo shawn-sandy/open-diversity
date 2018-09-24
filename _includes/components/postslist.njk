@@ -1,7 +1,7 @@
 <section class="content">
 	{% for post in postslist | reverse %}
 		<article{% if post.url == url %} data-current="current item"{% endif %}>
-			<h3 class="title is-2">
+			<h1 class="title is-1">
 				<a href="{{ post.url | url }}">
 					{% if post.data.title %}
 						{{ post.data.title }}
@@ -9,7 +9,8 @@
 						Untitled
 					{% endif %}
 				</a>
-			</h3>
+			</h1>
+			<hr>
 			{% if post.data.summary %}
 				<p class="is-size-5">
 					{{ post.data.summary }}
