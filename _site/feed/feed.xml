@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>Open Diversity Project</title>
+	<subtitle></subtitle>
+	<link href="" rel="self"/>
+	<link href="https://opendiversity.org"/>
+	<updated>2018-09-22T20:00:00-04:00</updated>
+	<id></id>
+	<author>
+		<name>Shawn Sandy</name>
+		<email>creative@shawnsandy.design</email>
+	</author>
+
+	<entry>
+		<title>The Introduction to web development technologies project</title>
+		<link href="https://opendiversity.org/posts/the-introduction-to-web-development-technologies-project/"/>
+		<updated>2018-09-22T20:00:00-04:00</updated>
+		<id>https://opendiversity.org/posts/the-introduction-to-web-development-technologies-project/</id>
+		<content type="html">&lt;ul&gt;&lt;li&gt;&lt;span class=&quot;name&quot;&gt;Project Map&lt;/span&gt;&lt;ul&gt;&lt;li&gt;&lt;span class=&quot;name&quot;&gt;Getting Started&lt;/span&gt;&lt;ul&gt;&lt;li&gt;&lt;span class=&quot;name&quot;&gt;About the track&lt;/span&gt;&lt;ul&gt;&lt;li&gt;&lt;span class=&quot;name&quot;&gt;This track will introduce Participants to the technologies behind website development while building one of their own, from domain registration to development and from development to deployment. By the end of this course participants will be able to build, deploy and manage a basic website.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span class=&quot;name&quot;&gt;Participants will also participate in a challenge project that allows them to put their knowledge in a&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;span class=&quot;name&quot;&gt;Requirements for this track&lt;/span&gt;&lt;ul&gt;&lt;li&gt;&lt;span class=&quot;name&quot;&gt;Email account&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span class=&quot;name&quot;&gt;Internet Access&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span class=&quot;name&quot;&gt;Computer with audio (video optional) chat capabilities&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span class=&quot;name&quot;&gt;2-4 hrs a week for course&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span class=&quot;name&quot;&gt;Join free code camp and provide a link to their BIO page so mentors can track their progress for related course work&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span class=&quot;name&quot;&gt;Be willing to help others participants and share their experience&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span class=&quot;name&quot;&gt;Volunteer on the project&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;span class=&quot;name&quot;&gt;Tools and Resources you need&lt;/span&gt;&lt;ul&gt;&lt;li&gt;&lt;span class=&quot;name&quot;&gt;Slack - Join the open diversity channel on slack - https://opendiversityproject.slack.com/&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span class=&quot;name&quot;&gt;GitHub - Create a github account https://github.com&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;hr&gt;&lt;span class=&quot;name&quot;&gt;Web Development&lt;/span&gt;&lt;ul&gt;&lt;li&gt;&lt;span class=&quot;name&quot;&gt;Development I - Your first website&lt;/span&gt;&lt;ul&gt;&lt;li&gt;&lt;span class=&quot;name&quot;&gt;What are Domains and why do you need one&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span class=&quot;name&quot;&gt;Web Servers&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;span class=&quot;name&quot;&gt;Development II - Making it yours&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span class=&quot;name&quot;&gt;Development III - Adding interactivity and feedback&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;span class=&quot;name&quot;&gt;Web Design Introduction&lt;/span&gt;&lt;ul&gt;&lt;li&gt;&lt;span class=&quot;name&quot;&gt;Coming soon&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;span class=&quot;name&quot;&gt;Websites management, marketing &amp;amp; security&lt;/span&gt;&lt;ul&gt;&lt;li&gt;&lt;span class=&quot;name&quot;&gt;Coming soon&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;span class=&quot;name&quot;&gt;Course Work&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span class=&quot;name&quot;&gt;Project Challenge.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+	</entry>
+</feed>

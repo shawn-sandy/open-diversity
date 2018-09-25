@@ -2,6 +2,7 @@
 title: The Introduction to web development technologies project
 summary: This track will introduce Participants to the technologies behind website development while building one of their own, from domain registration to development and from development to deployment.
 date: 2018-09-23
+image: img.jpg
 tags:
   - projects
 ---
