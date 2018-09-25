@@ -1,7 +1,7 @@
 <nav class="top-nav">
   <div class="container has-text-right">
   {%- for nav in collections.nav | sort(attribute="name") -%}
-    <a class="button is-text" href="{{ nav.url | url }}"{% if nav.url == page.url %} data-current="current item"{% endif %}> {{ nav.data.navtitle }} </a>
+    <a class="button is-text is-size-7" href="{{ nav.url | url }}"{% if nav.url == page.url %} data-current="current item"{% endif %}> {{ nav.data.navtitle }} </a>
   {%- endfor -%}
   </div>
 </nav>
