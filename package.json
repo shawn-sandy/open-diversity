@@ -15,7 +15,9 @@
     "build:eleventy": "npx eleventy",
     "watch": "npx eleventy --watch",
     "audit": "npx audit",
-    "debug": "DEBUG=* npx eleventy"
+    "debug": "DEBUG=* npx eleventy",
+    "sass": "gulp",
+    "build:sass": "gulp --env production"
   },
   "dependencies": {
     "bootstrap": "^4.1.3",
@@ -42,11 +44,16 @@
     "@vue/cli-service": "^3.0.0",
     "favicons": "^5.2.0",
     "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-clean": "^0.4.0",
     "gulp-favicons": "^2.2.7",
+    "gulp-if": "^2.0.2",
     "gulp-sass": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.4",
     "luxon": "^1.0.0",
     "markdown-it": "^8.4.1",
     "markdown-it-anchor": "^4.0.0",
+    "minimist": "^1.2.0",
     "node-sass": "^4.9.3",
     "sass-loader": "^7.1.0",
     "sass-rem": "^2.0.1",
