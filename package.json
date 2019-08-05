@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "bootstrap": "^4.3.1",
-    "bulma": "^0.7.1",
+    "bulma": "^0.7.5",
     "clean-css": "^4.1.11",
     "html-minifier": "^3.5.19",
     "uglify-js": "^3.4.5",
@@ -39,7 +39,7 @@
     "@vue/cli-plugin-babel": "^3.9.2",
     "@vue/cli-plugin-eslint": "^3.0.0",
     "@vue/cli-service": "^3.9.3",
-    "favicons": "^5.2.0",
+    "favicons": "^5.4.1",
     "gulp": "^3.9.1",
     "gulp-favicons": "^2.2.7",
     "gulp-sass": "^4.0.1",
