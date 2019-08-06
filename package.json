@@ -42,7 +42,7 @@
     "favicons": "^5.4.1",
     "gulp": "^3.9.1",
     "gulp-favicons": "^2.3.1",
-    "gulp-sass": "^4.0.1",
+    "gulp-sass": "^4.0.2",
     "luxon": "^1.17.2",
     "markdown-it": "^8.4.1",
     "markdown-it-anchor": "^5.2.4",
