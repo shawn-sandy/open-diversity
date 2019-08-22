@@ -36,7 +36,7 @@
   },
   "devDependencies": {
     "@11ty/eleventy": "^0.8.3",
-    "@vue/cli-plugin-babel": "^3.9.2",
+    "@vue/cli-plugin-babel": "^3.11.0",
     "@vue/cli-plugin-eslint": "^3.10.0",
     "@vue/cli-service": "^3.9.3",
     "favicons": "^5.4.1",
