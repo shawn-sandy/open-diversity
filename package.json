@@ -36,8 +36,8 @@
   },
   "devDependencies": {
     "@11ty/eleventy": "^0.8.3",
-    "@vue/cli-plugin-babel": "^3.11.0",
-    "@vue/cli-plugin-eslint": "^3.10.0",
+    "@vue/cli-plugin-babel": "^3.9.2",
+    "@vue/cli-plugin-eslint": "^3.11.0",
     "@vue/cli-service": "^3.9.3",
     "favicons": "^5.4.1",
     "gulp": "^3.9.1",
@@ -47,7 +47,7 @@
     "markdown-it": "^10.0.0",
     "markdown-it-anchor": "^5.2.4",
     "node-sass": "^4.12.0",
-    "sass-loader": "^7.1.0",
+    "sass-loader": "^8.0.0",
     "sass-rem": "^2.0.1",
     "vue-template-compiler": "^2.6.10"
   },
