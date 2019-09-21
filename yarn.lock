@@ -4795,9 +4795,9 @@ gulp-favicons@^2.3.1:
   dependencies:
     favicons "^5.4.1"
 
-gulp-sass@^4.0.1:
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/gulp-sass/-/gulp-sass-4.0.1.tgz#7f43d117eb2d303524968a1b48494af1bc64d1d9"
+gulp-sass@^4.0.2:
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/gulp-sass/-/gulp-sass-4.0.2.tgz#cfb1e3eff2bd9852431c7ce87f43880807d8d505"
   dependencies:
     chalk "^2.3.0"
     lodash.clonedeep "^4.3.2"
@@ -9919,6 +9919,12 @@ through2@~2.0.0:
   dependencies:
     readable-stream "~2.3.6"
     xtend "~4.0.1"
+
+through2@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/through2/-/through2-3.0.1.tgz#39276e713c3302edf9e388dd9c812dd3b825bd5a"
+  dependencies:
+    readable-stream "2 || 3"
 
 through@^2.3.6:
   version "2.3.8"
