@@ -40,7 +40,7 @@
     "@vue/cli-plugin-eslint": "^3.10.0",
     "@vue/cli-service": "^3.11.0",
     "favicons": "^5.4.1",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-favicons": "^2.3.1",
     "gulp-sass": "^4.0.2",
     "luxon": "^1.17.2",
