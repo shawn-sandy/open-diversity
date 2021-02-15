@@ -22,7 +22,7 @@
     "bulma": "^0.7.5",
     "clean-css": "^4.1.11",
     "html-minifier": "^4.0.0",
-    "uglify-js": "^3.4.5",
+    "uglify-js": "^3.12.8",
     "vue": "^2.6.10"
   },
   "author": {
